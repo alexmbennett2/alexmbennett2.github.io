@@ -6,7 +6,7 @@ const RESOURCES = {
   "assets/AssetManifest.json": "41304c0a48e5e8206068b8e79dbd255e",
 "assets/FontManifest.json": "e7bd217c37a45cce60cc389e0f034e14",
 "assets/fonts/AllertaStencil-Regular.ttf": "de576c535616e1d3aed12cb491aab3ab",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/fonts/Roboto-Regular.ttf": "f36638c2135b71e5a623dca52b611173",
 "assets/images/abbott_logo.png": "c71f5a64a7db7035386495b9ca2f0fb2",
 "assets/images/abbott_logo_black.png": "156a25460ed58b4bbf454d354f47b511",
@@ -32,20 +32,22 @@ const RESOURCES = {
 "assets/images/ypsomed_logo.png": "d3dc0b2b160701a3d8981bf259897925",
 "assets/images/ypsomed_logo_black.png": "97d50bed85b0b1697d746d8fd84231c3",
 "assets/images/ypsomed_logo_white.png": "600dc96fc60afd406135d7f34b5529c1",
-"assets/NOTICES": "ad5a524dd98a3268f499dd1ac82de2e8",
+"assets/NOTICES": "3779e9f878a1bde067ffe277f9dac727",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"assets/shaders/ink_sparkle.frag": "1e5582d12486e19660118d304f95179c",
+"canvaskit/canvaskit.js": "9d49083c3442cfc15366562eb578b5f3",
+"canvaskit/canvaskit.wasm": "e58017ff67dd1419dbd7b720458fb1af",
+"canvaskit/profiling/canvaskit.js": "dfb57a8542220c772374503baaf2632c",
+"canvaskit/profiling/canvaskit.wasm": "2c16ab2af3d4fbad52da379264e260e8",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "67b17de846d93f0bc245edcea5cc0b1a",
-"/": "67b17de846d93f0bc245edcea5cc0b1a",
-"main.dart.js": "bf79a8c7382babaedb0131f3d86c1a68",
+"index.html": "6c70ef05a93423d7e34f463e0cab256a",
+"/": "6c70ef05a93423d7e34f463e0cab256a",
+"main.dart.js": "c5a49ba591a119739ac4cb58ab6be0e3",
 "manifest.json": "ecdc94e87d9b0cd5c3200a22d5c721ed",
 "version.json": "52f2ce169af5f189c35f3687f2c04b03"
 };
@@ -53,10 +55,8 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -155,9 +155,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
