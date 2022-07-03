@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "41304c0a48e5e8206068b8e79dbd255e",
+  "assets/AssetManifest.json": "279ed3c508fede7e5717b5bab0085245",
 "assets/FontManifest.json": "e7bd217c37a45cce60cc389e0f034e14",
 "assets/fonts/AllertaStencil-Regular.ttf": "de576c535616e1d3aed12cb491aab3ab",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
@@ -20,6 +20,7 @@ const RESOURCES = {
 "assets/images/carbs_on_campus.png": "f19cd25d603c88058c2ede3a5a9ea4e2",
 "assets/images/carbs_on_campus_bw.png": "867cc17b6e822adf3ea7d94a307a886e",
 "assets/images/dexcom_logo.png": "11f547cb55c9e6e29baeb77771222133",
+"assets/images/dhf_guide_smiles_2022.png": "2946fdbf1d9fece42966d8a6230c73f4",
 "assets/images/dhf_logo.png": "36644afc303e197beeabd0f576b8d1c9",
 "assets/images/dhf_logo_crop.png": "d3e6c33870e69fcebe021b0c1b8571c4",
 "assets/images/exam1_graph.png": "9b896cb687bb986f224f3179f54c2df3",
@@ -45,9 +46,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "6c70ef05a93423d7e34f463e0cab256a",
-"/": "6c70ef05a93423d7e34f463e0cab256a",
-"main.dart.js": "c5a49ba591a119739ac4cb58ab6be0e3",
+"index.html": "545147d7629ec95d57376330ff3ebb36",
+"/": "545147d7629ec95d57376330ff3ebb36",
+"main.dart.js": "7fc50afb28acb597f9efa558a246eb2c",
 "manifest.json": "ecdc94e87d9b0cd5c3200a22d5c721ed",
 "version.json": "52f2ce169af5f189c35f3687f2c04b03"
 };
