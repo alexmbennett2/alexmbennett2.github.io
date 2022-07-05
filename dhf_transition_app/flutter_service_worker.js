@@ -33,7 +33,7 @@ const RESOURCES = {
 "assets/images/ypsomed_logo.png": "d3dc0b2b160701a3d8981bf259897925",
 "assets/images/ypsomed_logo_black.png": "97d50bed85b0b1697d746d8fd84231c3",
 "assets/images/ypsomed_logo_white.png": "600dc96fc60afd406135d7f34b5529c1",
-"assets/NOTICES": "3779e9f878a1bde067ffe277f9dac727",
+"assets/NOTICES": "3a874ddd0c6a879de7f45e9440b1ae39",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/shaders/ink_sparkle.frag": "1e5582d12486e19660118d304f95179c",
 "canvaskit/canvaskit.js": "9d49083c3442cfc15366562eb578b5f3",
@@ -46,9 +46,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "d6ca5bcaff9bebea10d1f305a1430678",
-"/": "d6ca5bcaff9bebea10d1f305a1430678",
-"main.dart.js": "7fc50afb28acb597f9efa558a246eb2c",
+"index.html": "589f2878d2d669f414b709d63a7da371",
+"/": "589f2878d2d669f414b709d63a7da371",
+"main.dart.js": "6f75475a602592b30b5a3b3d00634cd2",
 "manifest.json": "ecdc94e87d9b0cd5c3200a22d5c721ed",
 "version.json": "52f2ce169af5f189c35f3687f2c04b03"
 };
