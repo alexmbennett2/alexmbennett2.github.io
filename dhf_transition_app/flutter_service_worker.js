@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "279ed3c508fede7e5717b5bab0085245",
+  "assets/AssetManifest.json": "58e4cbc2fe0a028436a7132150d8466f",
 "assets/FontManifest.json": "e7bd217c37a45cce60cc389e0f034e14",
 "assets/fonts/AllertaStencil-Regular.ttf": "de576c535616e1d3aed12cb491aab3ab",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
@@ -16,6 +16,7 @@ const RESOURCES = {
 "assets/images/alumni_gym.PNG": "bda1711f0357195f3e16c8fff57c8908",
 "assets/images/alumni_physical_activity.png": "ea031b7e87535797964c3e3e4062756a",
 "assets/images/alumni_physical_activity_bw.png": "4b12ed4b0cab7b5e51a3f39c2288ef3e",
+"assets/images/books1.png": "b131b8b63110b8f30269a38eae02b3d2",
 "assets/images/carbs_graph.png": "26db146c05260730963fc5776142ed96",
 "assets/images/carbs_on_campus.png": "f19cd25d603c88058c2ede3a5a9ea4e2",
 "assets/images/carbs_on_campus_bw.png": "867cc17b6e822adf3ea7d94a307a886e",
@@ -26,6 +27,8 @@ const RESOURCES = {
 "assets/images/exam1_graph.png": "9b896cb687bb986f224f3179f54c2df3",
 "assets/images/exam2_graph.png": "c9b4ce8216558d5e25010a9609ac2ea3",
 "assets/images/fitness_graph.png": "599fd3b35de069ca712e401bb4b1fee8",
+"assets/images/gavel1.png": "c7bbee5f4f2c37c25499a5f1f270ca91",
+"assets/images/gavel2.png": "b37f556165f81ecbe48511855251e0c8",
 "assets/images/housing_graph.png": "2504dcd6056ace83c804e5f1642d95d9",
 "assets/images/live_at_home.png": "8cf3f21b697b3889defefeea9fee50a3",
 "assets/images/live_at_home_bw.png": "013eb0ee1a72ff65c31a856d6d310c6b",
@@ -46,9 +49,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "589f2878d2d669f414b709d63a7da371",
-"/": "589f2878d2d669f414b709d63a7da371",
-"main.dart.js": "6f75475a602592b30b5a3b3d00634cd2",
+"index.html": "0a3283487b16a83fcefef0e42f202d42",
+"/": "0a3283487b16a83fcefef0e42f202d42",
+"main.dart.js": "c10179c7c0ffdad02c7145ce52314b23",
 "manifest.json": "ecdc94e87d9b0cd5c3200a22d5c721ed",
 "version.json": "52f2ce169af5f189c35f3687f2c04b03"
 };
