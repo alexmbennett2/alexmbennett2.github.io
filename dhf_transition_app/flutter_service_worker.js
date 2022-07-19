@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "58e4cbc2fe0a028436a7132150d8466f",
+  "assets/AssetManifest.json": "0d10fa2233d5ee5c82d359486b1d547c",
 "assets/FontManifest.json": "e7bd217c37a45cce60cc389e0f034e14",
 "assets/fonts/AllertaStencil-Regular.ttf": "de576c535616e1d3aed12cb491aab3ab",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
@@ -32,6 +32,7 @@ const RESOURCES = {
 "assets/images/housing_graph.png": "2504dcd6056ace83c804e5f1642d95d9",
 "assets/images/live_at_home.png": "8cf3f21b697b3889defefeea9fee50a3",
 "assets/images/live_at_home_bw.png": "013eb0ee1a72ff65c31a856d6d310c6b",
+"assets/images/logo_mylife_diabetescare.png": "ce552ce199e5e8c880795863e121d376",
 "assets/images/minifridge_graph.png": "876c0be28a834f02247df35ab84462b7",
 "assets/images/ypsomed_logo.png": "d3dc0b2b160701a3d8981bf259897925",
 "assets/images/ypsomed_logo_black.png": "97d50bed85b0b1697d746d8fd84231c3",
@@ -49,9 +50,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "0a3283487b16a83fcefef0e42f202d42",
-"/": "0a3283487b16a83fcefef0e42f202d42",
-"main.dart.js": "c10179c7c0ffdad02c7145ce52314b23",
+"index.html": "ac9c94522fdeec9581e2ecdf83d97237",
+"/": "ac9c94522fdeec9581e2ecdf83d97237",
+"main.dart.js": "42974f87fe2694781606febf3bde0d04",
 "manifest.json": "ecdc94e87d9b0cd5c3200a22d5c721ed",
 "version.json": "52f2ce169af5f189c35f3687f2c04b03"
 };
