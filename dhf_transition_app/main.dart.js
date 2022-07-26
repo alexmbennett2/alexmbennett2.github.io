@@ -39696,15 +39696,15 @@ $R:3,
 $S:367}
 A.GJ.prototype={
 E(a){var s=null,r=A.G(a)
-return new A.vE(A.bA(s,A.mq(A.a([A.fc(!1,s,!0,A.eU(A.lO("images/abbott_logo.png"),16,s),s,!0,s,s,s,s,s,s,s,s,s,new A.Xk(),s,s,s,s,s),A.fc(!1,s,!0,A.eU(A.lO("images/dexcom_logo.png"),10,s),s,!0,s,s,s,s,s,s,s,s,s,new A.Xl(),s,s,s,s,s),A.fc(!1,s,!0,A.eU(A.lO("images/logo_mylife_diabetescare_spaced.png"),18,s),s,!0,s,s,s,s,s,s,s,s,s,new A.Xm(),s,s,s,s,s)],t.p),B.P,B.hX,B.U),B.m,s,s,s,s,s,s,B.h8,s,s,s),r.as,s)}}
+return new A.vE(A.bA(s,A.mq(A.a([A.fc(!1,s,!0,A.eU(A.lO("images/abbott_logo.png"),16,s),s,!0,s,s,s,s,s,s,s,s,s,new A.Xk(),s,s,s,s,s),A.fc(!1,s,!0,A.eU(A.lO("images/logo_mylife_diabetescare_spaced.png"),18,s),s,!0,s,s,s,s,s,s,s,s,s,new A.Xl(),s,s,s,s,s),A.fc(!1,s,!0,A.eU(A.lO("images/dexcom_logo.png"),10,s),s,!0,s,s,s,s,s,s,s,s,s,new A.Xm(),s,s,s,s,s)],t.p),B.P,B.hX,B.U),B.m,s,s,s,s,s,s,B.h8,s,s,s),r.as,s)}}
 A.Xk.prototype={
 $0(){return A.le(A.fu("https://www.ca.abbott/",0,null))},
 $S:0}
 A.Xl.prototype={
-$0(){return A.le(A.fu("https://www.dexcom.com/en-CA",0,null))},
+$0(){return A.le(A.fu("https://www.mylife-diabetescare.com/en-CA/products/infusion-systems/ypsopump-insulin-pump.html?gclid=EAIaIQobChMIhaCBrZKA-QIV9PbjBx0u2g7EEAAYASAAEgLu3PD_BwE",0,null))},
 $S:0}
 A.Xm.prototype={
-$0(){return A.le(A.fu("https://www.mylife-diabetescare.com/en-CA/products/infusion-systems/ypsopump-insulin-pump.html?gclid=EAIaIQobChMIhaCBrZKA-QIV9PbjBx0u2g7EEAAYASAAEgLu3PD_BwE",0,null))},
+$0(){return A.le(A.fu("https://www.dexcom.com/en-CA",0,null))},
 $S:0}
 A.GI.prototype={
 E(a){return new A.rH(new A.Xi(),new A.Xj(a),B.D1,null,t.nT)}}
