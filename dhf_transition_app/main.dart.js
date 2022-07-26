@@ -39696,7 +39696,7 @@ $R:3,
 $S:367}
 A.GJ.prototype={
 E(a){var s=null,r=A.G(a)
-return new A.vE(A.bA(s,A.mq(A.a([B.OZ,A.fd(!1,s,!0,A.eU(A.lO("images/abbott_logo.png"),16,s),s,!0,s,s,s,s,s,s,s,s,s,new A.Xk(),s,s,s,s,s),A.fd(!1,s,!0,A.eU(A.lO("images/dexcom_logo.png"),10,s),s,!0,s,s,s,s,s,s,s,s,s,new A.Xl(),s,s,s,s,s),A.fd(!1,s,!0,A.eU(A.lO("images/logo_mylife_diabetescare.png"),18,s),s,!0,s,s,s,s,s,s,s,s,s,new A.Xm(),s,s,s,s,s)],t.p),B.P,B.hX,B.U),B.m,s,s,s,s,s,s,B.h8,s,s,s),r.as,s)}}
+return new A.vE(A.bA(s,A.mq(A.a([B.OZ,A.fd(!1,s,!0,A.eU(A.lO("images/abbott_logo.png"),16,s),s,!0,s,s,s,s,s,s,s,s,s,new A.Xk(),s,s,s,s,s),A.fd(!1,s,!0,A.eU(A.lO("images/dexcom_logo.png"),10,s),s,!0,s,s,s,s,s,s,s,s,s,new A.Xl(),s,s,s,s,s),A.fd(!1,s,!0,A.eU(A.lO("images/logo_mylife_diabetescare_spaced.png"),18,s),s,!0,s,s,s,s,s,s,s,s,s,new A.Xm(),s,s,s,s,s)],t.p),B.P,B.hX,B.U),B.m,s,s,s,s,s,s,B.h8,s,s,s),r.as,s)}}
 A.Xk.prototype={
 $0(){return A.le(A.fu("https://www.ca.abbott/",0,null))},
 $S:0}
