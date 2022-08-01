@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "5411e358ab99f44eb285e9f6649266b8",
+  "assets/AssetManifest.json": "548eccf7298a084e1d9862397b43fa90",
 "assets/FontManifest.json": "e7bd217c37a45cce60cc389e0f034e14",
 "assets/fonts/AllertaStencil-Regular.ttf": "de576c535616e1d3aed12cb491aab3ab",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
@@ -12,10 +12,12 @@ const RESOURCES = {
 "assets/images/abbott_logo_black.png": "156a25460ed58b4bbf454d354f47b511",
 "assets/images/abbott_logo_white.png": "958827d05b1f1f8c7a94727c88221db8",
 "assets/images/about_group_picture.png": "3c90ce7e4a6330db4e4d678d9a679c0a",
+"assets/images/alumni_degrees.png": "f6acc690f936e7d26a7d72413aeb2a8b",
 "assets/images/alumni_eating_pattern.PNG": "3d23aca2fc7382a32b4e6390ebe83f6b",
 "assets/images/alumni_gym.PNG": "bda1711f0357195f3e16c8fff57c8908",
 "assets/images/alumni_physical_activity.png": "ea031b7e87535797964c3e3e4062756a",
 "assets/images/alumni_physical_activity_bw.png": "4b12ed4b0cab7b5e51a3f39c2288ef3e",
+"assets/images/alumni_province_breakdown.png": "f222d79200325c09f35a958341ba90f7",
 "assets/images/books1.png": "b131b8b63110b8f30269a38eae02b3d2",
 "assets/images/carbs_graph.png": "26db146c05260730963fc5776142ed96",
 "assets/images/carbs_on_campus.png": "f19cd25d603c88058c2ede3a5a9ea4e2",
@@ -53,9 +55,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "213f8551183e8eafced3c763eb5a9637",
-"/": "213f8551183e8eafced3c763eb5a9637",
-"main.dart.js": "fd0cbc9c4d623721861a34eff1957f04",
+"index.html": "84d9926901a1e1f12a2d1f9e0bdba81b",
+"/": "84d9926901a1e1f12a2d1f9e0bdba81b",
+"main.dart.js": "a4945e8cc3441c34d2760c8a9b3ff9b0",
 "manifest.json": "ecdc94e87d9b0cd5c3200a22d5c721ed",
 "version.json": "52f2ce169af5f189c35f3687f2c04b03"
 };
