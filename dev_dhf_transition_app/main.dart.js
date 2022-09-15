@@ -39741,7 +39741,7 @@ $1(a){return A.UV()},
 $S:344}
 A.JD.prototype={
 F(a,b){var s=null
-return new A.z3(A.aH(["/home",new A.a3m(),"/login",new A.a3n(),"/alumni",new A.a3o(),"/about",new A.a3p(),"/university",new A.a3q(),"/result",new A.a3r(),"/benefits",new A.a3s(),"/sponsors",new A.a3t()],t.N,t.Ab),"/login","DHF App",A.anM(B.k,B.k,s,B.et,B.nk,"Roboto",B.bR,B.nO,B.vj,B.bR,B.Ai,B.Af,B.et,B.wm),A.anM(B.k,B.k,s,B.et,B.nk,"Roboto",B.bR,B.nO,B.vj,B.bR,B.Ae,B.Aj,B.et,B.wm),new A.a3u(s),s)}}
+return new A.z3(A.aH(["/home",new A.a3m(),"/login",new A.a3n(),"/alumni",new A.a3o(),"/about",new A.a3p(),"/university",new A.a3q(),"/result",new A.a3r(),"/benefits",new A.a3s(),"/sponsors",new A.a3t()],t.N,t.Ab),"/login","DHF App",A.anM(B.k,B.k,s,B.et,B.nk,"Roboto",B.bR,B.nO,B.vj,B.bR,B.Ak,B.Af,B.et,B.wm),A.anM(B.k,B.k,s,B.et,B.nk,"Roboto",B.bR,B.nO,B.vj,B.bR,B.Ae,B.Ai,B.et,B.wm),new A.a3u(s),s)}}
 A.a3m.prototype={
 $1(a){return new A.o0($.nf(),null)},
 $S:346}
@@ -76526,7 +76526,7 @@ B.c5=new A.wF(0,"none")
 B.q=new A.bR(B.m,0,B.c5)
 B.n6=new A.O(4294638330)
 B.n5=new A.O(4294309365)
-B.Ak=new A.O(4293848814)
+B.Aj=new A.O(4293848814)
 B.h0=new A.O(4292927712)
 B.Ah=new A.O(4292269782)
 B.Ag=new A.O(4290624957)
@@ -76536,7 +76536,7 @@ B.er=new A.O(4284572001)
 B.eq=new A.O(4282532418)
 B.h_=new A.O(4281348144)
 B.mX=new A.O(4280361249)
-B.Gw=new A.bY([50,B.n6,100,B.n5,200,B.Ak,300,B.h0,350,B.Ah,400,B.Ag,500,B.n1,600,B.dn,700,B.er,800,B.eq,850,B.h_,900,B.mX],t.pl)
+B.Gw=new A.bY([50,B.n6,100,B.n5,200,B.Aj,300,B.h0,350,B.Ah,400,B.Ag,500,B.n1,600,B.dn,700,B.er,800,B.eq,850,B.h_,900,B.mX],t.pl)
 B.ap=new A.z6(B.Gw,4288585374)
 B.a2=new A.wF(1,"solid")
 B.mi=new A.bR(B.ap,1,B.a2)
@@ -76965,9 +76965,9 @@ B.Af=new A.O(4289429708)
 B.n2=new A.O(4290502395)
 B.et=new A.O(4291414732)
 B.n3=new A.O(4292030255)
-B.Ai=new A.O(4292594153)
-B.Aj=new A.O(4292796386)
+B.Ai=new A.O(4292796386)
 B.n4=new A.O(4293128957)
+B.Ak=new A.O(4294176248)
 B.Al=new A.O(4294901760)
 B.k=new A.O(4294967295)
 B.An=new A.O(436207616)
