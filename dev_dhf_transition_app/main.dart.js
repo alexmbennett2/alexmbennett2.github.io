@@ -39741,7 +39741,7 @@ $1(a){return A.UV()},
 $S:344}
 A.JD.prototype={
 F(a,b){var s=null
-return new A.z3(A.aH(["/home",new A.a3m(),"/login",new A.a3n(),"/alumni",new A.a3o(),"/about",new A.a3p(),"/university",new A.a3q(),"/result",new A.a3r(),"/benefits",new A.a3s(),"/sponsors",new A.a3t()],t.N,t.Ab),"/login","DHF App",A.anM(B.k,B.k,s,B.et,B.nk,"Roboto",B.bR,B.nO,B.vj,B.bR,B.Ah,B.Af,B.et,B.wm),A.anM(B.k,B.k,s,B.et,B.nk,"Roboto",B.bR,B.nO,B.vj,B.bR,B.Ae,B.Aj,B.et,B.wm),new A.a3u(s),s)}}
+return new A.z3(A.aH(["/home",new A.a3m(),"/login",new A.a3n(),"/alumni",new A.a3o(),"/about",new A.a3p(),"/university",new A.a3q(),"/result",new A.a3r(),"/benefits",new A.a3s(),"/sponsors",new A.a3t()],t.N,t.Ab),"/login","DHF App",A.anM(B.k,B.k,s,B.et,B.nk,"Roboto",B.bR,B.nO,B.vj,B.bR,B.Ai,B.Af,B.et,B.wm),A.anM(B.k,B.k,s,B.et,B.nk,"Roboto",B.bR,B.nO,B.vj,B.bR,B.Ae,B.Aj,B.et,B.wm),new A.a3u(s),s)}}
 A.a3m.prototype={
 $1(a){return new A.o0($.nf(),null)},
 $S:346}
@@ -40028,7 +40028,7 @@ A.Mz.prototype={
 F(a,b){return new A.Ja(new A.aa2(this),null)}}
 A.aa2.prototype={
 $2(a,b){var s=null,r=b.b,q=this.a,p=q.d,o=B.e.Z(p*100,0),n=t.p
-return A.bE(A.b([new A.bp(B.bc,s,s,A.W(q.c,s,s,s,s,B.w,s,s),s),B.bJ,A.kV(A.b([A.bk(s,s,B.n,A.K(a).at,s,s,s,15,s,s,s,s,r*p),A.bk(s,s,B.n,A.K(a).ax,s,s,s,15,s,s,s,s,r*(1-p))],n),B.z,B.y,B.x),new A.bp(B.fM,s,s,A.W(o+"%",s,s,s,s,B.w,s,s),s)],n),B.z,B.y,B.x)},
+return A.bE(A.b([new A.bp(B.bc,s,s,A.W(q.c,s,s,s,s,B.w,s,s),s),B.bJ,A.kV(A.b([A.bk(s,s,B.n,A.K(a).at,s,s,s,15,s,s,s,s,r*p),A.bk(s,s,B.n,A.K(a).fr,s,s,s,15,s,s,s,s,r*(1-p))],n),B.z,B.y,B.x),new A.bp(B.fM,s,s,A.W(o+"%",s,s,s,s,B.w,s,s),s)],n),B.z,B.y,B.x)},
 $S:412}
 A.no.prototype={
 a3(){var s=$.bU,r=(s==null?$.bU=$.eN():s).eI(0,"[DEFAULT]")
@@ -76528,7 +76528,7 @@ B.n6=new A.O(4294638330)
 B.n5=new A.O(4294309365)
 B.Ak=new A.O(4293848814)
 B.h0=new A.O(4292927712)
-B.Ai=new A.O(4292269782)
+B.Ah=new A.O(4292269782)
 B.Ag=new A.O(4290624957)
 B.n1=new A.O(4288585374)
 B.dn=new A.O(4285887861)
@@ -76536,7 +76536,7 @@ B.er=new A.O(4284572001)
 B.eq=new A.O(4282532418)
 B.h_=new A.O(4281348144)
 B.mX=new A.O(4280361249)
-B.Gw=new A.bY([50,B.n6,100,B.n5,200,B.Ak,300,B.h0,350,B.Ai,400,B.Ag,500,B.n1,600,B.dn,700,B.er,800,B.eq,850,B.h_,900,B.mX],t.pl)
+B.Gw=new A.bY([50,B.n6,100,B.n5,200,B.Ak,300,B.h0,350,B.Ah,400,B.Ag,500,B.n1,600,B.dn,700,B.er,800,B.eq,850,B.h_,900,B.mX],t.pl)
 B.ap=new A.z6(B.Gw,4288585374)
 B.a2=new A.wF(1,"solid")
 B.mi=new A.bR(B.ap,1,B.a2)
@@ -76965,7 +76965,7 @@ B.Af=new A.O(4289429708)
 B.n2=new A.O(4290502395)
 B.et=new A.O(4291414732)
 B.n3=new A.O(4292030255)
-B.Ah=new A.O(4292132581)
+B.Ai=new A.O(4292594153)
 B.Aj=new A.O(4292796386)
 B.n4=new A.O(4293128957)
 B.Al=new A.O(4294901760)
